@@ -1,0 +1,74 @@
+body {
+    background-color: #eaf6ff;
+    color: #333;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #b8e0ff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 32px;
+    color: #2c5d8a;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 700px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.photo {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.photo:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Choices layout and hover: font-size increase for headings and thin white border around image */
+.choices {
+    margin-top: 20px;
+}
+.choice {
+    display: block;
+    margin-bottom: 18px;
+}
+.choice p {
+    margin: 6px 0 8px;
+}
+.choice a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: font-size 0.3s ease, color 0.2s ease;
+}
+.choice .photo {
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.15s ease;
+}
+.choice:hover .photo {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255,255,255,0.9);
+}
+.choice:hover a {
+    font-size: 1.2rem;
+}
+
+    
