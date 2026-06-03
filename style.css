@@ -39,8 +39,6 @@ img {
 .photo:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-
-/* Choices layout and hover: font-size increase for headings and thin white border around image */
 .choices {
     margin-top: 20px;
 }
